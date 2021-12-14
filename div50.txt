@@ -1,0 +1,38 @@
+.father {
+    border: 1px solid blue;
+    width: 300px;
+    height: 300px;
+}
+.child {
+    background: green;    
+}
+.child {     
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.father {
+    position: relative;
+}
+.child {
+    position: absolute;;
+    top: 50%;
+    left: 50%;    
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+
+
+
+
+.father {
+    position: relative;
+}
+.child {
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+}
